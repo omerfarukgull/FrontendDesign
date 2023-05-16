@@ -1,3 +1,3 @@
 # Frontend Design
 
-Html, Css, bootstrap ile kendimi geliştirimek için yaptığım tasarımlar.
+> Html, Css, Javascript, Bootstrap ile kendimi geliştirimek için yaptığım tasarımlar.
