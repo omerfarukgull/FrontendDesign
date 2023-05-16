@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Login</title>
+    <script>
+
+        function grs() {
+
+            var login = document.getElementById("login").value;
+            var pass = document.getElementById("pass").value;
+
+            if (login == "admin" && pass == "admin123") {
+                alert("Giriş Başarılı");
+            }
+            else if (login !== "admin" || pass !== "admin123") {
+                alert("Kullanıcı Adı ya da Şifre Hatalı ");
+            }
+
+        }
+
+
+
+    </script>
+</head>
+
+<body>
+   
+    <div class="ana">
+        <div class="left">
+            <div class="icerik">
+                <h1>Merhaba</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur et est sed felis aliquet sollicitudin</p>
+                <span>
+                    <p>Sosyal Medya İle Giriş Yap</p>
+                    <a href="#" class="face">Facebook</a>
+                    <a href="#" class="twit"></i> Login with Twitter</a>
+                </span>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="form">
+                <h5>Login</h5>
+                <p>Don't have an account? <a href="#">Creat Your Account</a> it takes less than a minute</p>
+                <input type="text" placeholder="Kullanıcı Ya da Mail" id="login">
+
+                <input type="password" placeholder="Şifre Giriniz" id="pass">
+                <br>
+                <div class="ic">
+                    <label for="">
+                        <input type="checkbox" name="item" id="check" />
+                        <span class="text-checkbox">Hatırla Beni</span>
+                    </label>
+                    <p>forget password?</p>
+                </div>
+
+                <button type="button" id="GrsBtn" onclick="grs()">Login</button>
+
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>

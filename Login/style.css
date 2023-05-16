@@ -1,0 +1,180 @@
+body{
+    background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+    font-family: "Open Sans", sans-serif; 
+}
+.ana{
+    width: 1200px;
+    height: 800px;
+    background-color: coral;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.left
+{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    padding-top: 0px;
+    border-right: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url("iconlar/wal.jpg");
+    box-shadow: 0 0 20px 6px #090b6f85;
+    
+}
+.left .icerik {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background: #6e7099ad;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+.left h1{
+    position: relative;
+    margin-top: 70px;
+    font-size: 100pt;
+    color: white;
+}
+.left p{
+    position: relative;
+    margin-top: 20px;
+    font-size: 12pt;
+    color: white;
+}
+.left span > p{
+    position: relative;
+    margin-top: 40px;
+    font-size: 12pt;
+    color: white;
+}
+a.face{
+    position: absolute;
+    background: #3b5998;
+    color: #FFFFFF;
+    height: 20px;
+    margin-top: 50px;
+    padding: 10px 50px;
+    border-radius: 100px;
+    box-shadow: 0 3px 6px 1px #042d4657;
+}
+ a.twit {
+    position: absolute;
+    background: #1dcaff;
+    color: #FFFFFF;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding: 10px 50px;
+    border-radius: 100px;
+    box-shadow: 0 3px 6px 1px #042d4657;
+  }
+
+
+  /*Sağ Taraf*/
+
+  .right{ 
+    
+    background-color: white;
+    width: 400px;
+    height: 800px;
+    position: absolute;
+    padding-top: 0px;
+    margin-left: 800px;
+    box-shadow: 0 0 20px 6px #090b6f85;
+}
+
+
+.form{
+    text-align: center;
+}
+.form h5{
+    display: block;
+    text-align: start;
+    font-size: 50pt;
+    margin-top: 110px;
+    font-size: 80pt;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.form p{
+   display: block;
+   margin-top: -70px;
+    text-align: start;
+    font-size: 10pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+#login{
+    margin-top: 30px;
+    background-image: url('iconlar/user3.png');
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+
+    height: 30px;
+    border: none;
+    border-bottom:  1px solid gray;
+    width: 300px;
+}
+#login:focus{
+    outline: none;
+}
+
+#pass{
+    margin-top: 20px;
+    background-image: url('iconlar/pass.png');
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    height: 30px;
+    border: none;
+    border-bottom:  1px solid gray;
+    width: 300px;
+}
+#pass:focus{
+    outline: none;
+}
+
+#GrsBtn{
+    background: rgb(18,9,121);
+    background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+    height: 50px;
+    width: 200px;
+    font-size: 16pt;
+    margin-top: 80px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 3px 6px 1px #042d4657;
+}
+
+
+  .ic {
+    margin-top: 100px;
+    justify-self: baseline;   
+ }
+ .ic label{
+    margin-left: 44px;
+    font-size: small;
+    text-align: center;
+    display: block;
+    position:absolute;  
+    cursor: pointer; 
+ }
+ .ic p{
+    font-size: small;
+    text-align: right;
+    margin-right: 44px;
+    color: gray;
+    cursor: pointer;
+ }
+ input[type=checkbox] {
+    accent-color: #49C628;
+    background-color: #FFFFFF;
+  }
+
+
