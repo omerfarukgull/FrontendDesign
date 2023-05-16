@@ -1,0 +1,141 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sayfa{ 
+    width: 1200px;
+    position: relative;
+    margin: auto;
+   
+}
+.nav {
+    height: 125px;
+ }
+.menu {
+    float: left;
+    margin-top: 50px;
+    margin-left: 310px;
+}
+.menu li{
+    display:inline-block;
+    
+}
+.menu li a{
+    text-align: left;
+    text-decoration: none;
+    padding-right: 20px;
+	padding-left: 20px;
+    color: black;
+    
+}
+.slide img{
+    margin-top: 20px;
+    width: 1200px;
+}
+.icerik{
+    width: 1200px;
+    margin-top: 80px;
+}
+.left
+{
+    position: absolute;
+    width: 500px;
+    margin-left: 600px; 
+}
+.right{ 
+    width: 400px;
+    position: absolute;
+    text-align: left;
+}
+.orta{
+    background-color: #659701;
+    margin-top: 700px;
+}
+.orta h1{
+    
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30pt;
+}
+.card {
+    float: left;
+    background-color:#b3d201;
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    margin-left: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 20px; 
+}
+.card p { 
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.temizle{
+	clear: both;
+}
+.yazi{
+    margin-top: 100px;
+   text-align: center;
+}
+.yazi h5{
+    letter-spacing:5px;
+}
+.hesaplama
+{
+    width: 900px;
+    height: 470px;
+    box-shadow: 0 0 20px 6px #4b4b4e85;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 150px;
+    
+}
+form{
+    padding: 60px;
+   
+}
+#kilo{
+    height: 30px;
+    border:  1px solid gray;
+    width: 770px;
+}
+
+#boy{
+    height: 30px;
+    border:  1px solid gray;
+    width: 770px;
+   
+}
+.hesaplabtn{
+   
+    width: 770px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ffab00;
+    color: white;
+    font-size: large;
+}
+
+.bosluk  ul li a{
+    margin-top: 100px;
+	padding: 20px;
+}
+.footer{
+    margin-top: 700px;
+    background-color: #659701;
+    height: 50px;
+    text-align: center;
+}
+.footer h6{
+    padding: 20px;
+}
+hr.style3 {
+	border-top: 2px dashed #659701;
+    width: 100px;
+}

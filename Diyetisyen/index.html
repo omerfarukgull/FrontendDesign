@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script>
+        function Hesapla() {
+            var boy = Number(document.getElementById("boy").value);
+            var kilo = Number(document.getElementById("kilo").value);
+
+            sonuc = ((kilo / (boy * boy)) * 10000).toFixed(1);
+
+            if (sonuc <= 18) {
+
+                document.getElementById("snc").innerHTML = sonuc.toString() + " Vücut Kitle değeriniz ile <span style='color: #25aae1;'> Zayıf </span> aralıkları içindesiniz.";
+
+
+            }
+            else if (sonuc >= 19 && sonuc <= 25) {
+                document.getElementById("snc").innerHTML = sonuc.toString() + " Vücut Kitle değeriniz ile <span style='color: #25aae1;'> Kilolu </span> aralıkları içindesiniz.";
+
+
+            }
+            else if (sonuc >= 26 && sonuc <= 30) {
+
+                document.getElementById("snc").innerHTML = sonuc.toString() + " Vücut Kitle değeriniz ile <span style='color: #25aae1;'> Fazla Kilolu </span> aralıkları içindesiniz.";
+
+
+            }
+            else if (sonuc >= 31 && sonuc <= 35) {
+                document.getElementById("snc").innerHTML = sonuc.toString() + " Vücut Kitle değeriniz ile <span style='color: #25aae1;'> Obez (Şişman) </span> aralıkları içindesiniz.";
+
+
+            }
+            else if (sonuc >= 36 && sonuc <= 40) {
+
+                document.getElementById("snc").innerHTML = sonuc.toString() + " Vücut Kitle değeriniz ile <span style='color: #25aae1;'> 1 Derece Obez (Şişman)  </span> aralıkları içindesiniz.";
+
+            }
+            else if (sonuc >= 41) {
+
+                document.getElementById("snc").innerHTML = sonuc.toString() + " Vücut Kitle değeriniz ile <span style='color: #25aae1;'> İleri Derecede Obez (Morbid Obez) </span> aralıkları içindesiniz.";
+
+            }
+
+
+        }
+    </script>
+</head>
+
+<body>
+    <div class="sayfa">
+
+        <div class="nav">
+            <img src="img/logo.png" width="200px" height="70px" style="float: left;  margin-top: 20px;" alt="">
+            <ul class="menu">
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Online Diyet</a></li>
+                <li><a href="#">Randevu</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+
+        <div class="slide">
+            <img src="img/1.png" alt="">
+        </div>
+
+        <div class="icerik">
+            <div class="right">
+                <img src="img/doctor.png" alt="">
+            </div>
+            <div class="left">
+                
+                <table>
+                   
+                    <h2>Neden Beraber Çalışmalıyız?</h2>
+                    <tr>
+                        <td style=" vertical-align: top;"><img src="img/4.png" alt=""></td>
+                        <td>
+                            <p><b> “Diyet” değil “Beslenme Düzeni”</b></p>
+                            <P><small>Yüzlerce danışan tecrübesi ve bilgi birikimiyle tamamen size özel bir ‘diyet’
+                                    değil ‘beslenme düzeni’ oluşturuyoruz. Bunun anlamı beslenme kaynaklı
+                                    problemlerinize yara bandı niteliğinde geçici çözümler değil,
+                                    uzun vadede sorunlarınızı temel olarak aşabileceğiniz ve yaşam boyu
+                                    uygulayabileceğiniz bir reçete.</small></P>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style=" vertical-align: top;"><img src="img/5.png" alt=""></td>
+                        <td>
+                            <p><b> Kalıcı davranış değişikliği hedef modeli uyguluyoruz.</b></p>
+                            <P><small>Bu model ile haftalık gelişimlerinize uygun olarak beslenme ve sağlık düzeninizde
+                                    uygulamanız gereken değişikliklere yönelik hedefler veriyoruz. Hedefler siz
+                                    başardıkça adım adım ilerliyor.</small></P>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style=" vertical-align: top;"><img src="img/6.png" alt=""></td>
+                        <td>
+                            <p><b> Uzun vadeli kilo hedefleri yok</b></p>
+                            <P><small>Kısa zamanlı, adım adım gerçekleştirilebilecek küçük mutluluk eşikleri
+                                    belirliyoruz. Böylelikle “şu kadar zamanda şu kadar kilo” stresinden sıyrılıp o ana
+                                    odaklanıyoruz ve nitel kaliteyi ön plana çıkarıyoruz.</small></P>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="orta">
+            <h1>Hizmetlerimiz</h1>
+
+            <div class="card">
+                <img src="img/orta1.png" alt="Avatar" style="width: 50px;">
+                <p>Zayıflama Diyet Programı</p>
+            </div>
+
+            <div class="card">
+                <img src="img/orta2.png" alt="Avatar" style="width: 50px;">
+                <p>Bireysel Beslenme Danışmanlığı</p>
+            </div>
+
+            <div class="card">
+                <img src="img/orta3.png" alt="Avatar" style="width: 50px;">
+
+                <p>Kurumsal Beslenme Danışmanlığı</p>
+            </div>
+
+            <div class="card">
+                <img src="img/orta4.png" alt="Avatar" style="width: 50px;">
+                <p> Genlere Özgü Beslenme Programı</p>
+            </div>
+            <div class="card">
+                <img src="img/orta5.png" alt="Avatar" style="width: 50px;">
+                <p> Mikrobiyota Testi Ve Diyeti</p>
+            </div>
+
+            <div class="card">
+                <img src="img/orta6.png" alt="Avatar" style="width: 50px;">
+                <p>Gaps Danışmanlığı</p>
+            </div>
+
+            <div class="card">
+                <img src="img/orta7.png" alt="Avatar" style="width: 40px;">
+                <p>Sporcu Beslenme Danışmanlığı</p>
+            </div>
+
+            <div class="card">
+                <img src="img/orta8.png" alt="Avatar" style="width: 50px;">
+                <p>Psikolojik Danışmalık</p>
+            </div>
+
+            <div class="temizle"></div>
+        </div>
+
+
+        <div class="yazi">
+            <hr class="style3">
+            <h3>HESAPLAMA ARAÇLARI</h3>
+            <h1>Vücut Kitle Endeksi Hesaplama</h1>
+
+        </div>
+
+        <div>
+            <div class="hesaplama">
+                <form action="">
+                    <p>Kilonuzu Giriniz ?</p>
+                    <input type="text" id="kilo"><br><br>
+                    <p>Boyunuzu Giriniz ?</p>
+                    <input type="text" id="boy"><br><br>
+
+                    <input type="checkbox" name="gender" value="kadın">Kadın
+                    <input type="checkbox" name="gender" value="erkek">Erkek <br><br>
+                    <input type="button" onclick="Hesapla()" value="Hesapla" class="hesaplabtn"><br><br><br>
+                    <p id="snc"></p>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h6>
+                <small> Copyright 2023 diyet.com. All right reserved.</small>
+            </h6>
+
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
